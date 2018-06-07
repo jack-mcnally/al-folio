@@ -1,8 +1,8 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+title: jack <strong>mcnally</strong>
+description: campaign consultant, graphic and web design.
 
 profile:
   align: right
@@ -15,6 +15,8 @@ profile:
 news: true
 social: true
 ---
+
+Test
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
