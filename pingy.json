@@ -1,0 +1,35 @@
+{
+	"name": "mcnally.org.au",
+	"exportDir": "dist",
+	"minify": true,
+	"compile": true,
+	"exclusions": [
+		{
+			"path": "node_modules",
+			"action": "dontCompile",
+			"type": "dir"
+		},
+		{
+			"path": "node_modules/**",
+			"action": "exclude",
+			"type": "dir"
+		},
+		{
+			"path": "!node_modules/{popper.js,popper.js/dist,popper.js/dist/**}",
+			"action": "exclude",
+			"type": "dir"
+		},
+		{
+			"path": "!node_modules/{bootstrap,bootstrap/dist,bootstrap/dist/**}",
+			"action": "exclude",
+			"type": "dir"
+		},
+		{
+			"path": "!node_modules/{jquery,jquery/dist,jquery/dist/**}",
+			"action": "exclude",
+			"type": "dir"
+		}
+	],
+	"sourceMap": false,
+	"port": 50352
+}
